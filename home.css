@@ -1,0 +1,143 @@
+.midtext {
+  text-align: center; /* Căn lề chữ ở giữa */
+  padding-left: 50px; /* Tạo khoảng trái 20px */
+  padding-right: 50px; /* Tạo khoảng phải 20px */
+  color: #000000;
+  font-family: "FuturaNowHeadline-XLight", Sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+}
+.imgfix {
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 70%;
+  margin: 120px 0px 120px 0px;
+}
+nav {
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(200, 243, 243);
+  font-family: 標楷體;
+  font-size: 40px;
+  border: solid gray 1px;
+  border-radius: 5px;
+}
+.mid {
+  display: block;
+  margin: auto;
+}
+.left {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#cuoitrang {
+  font-size: 40px;
+}
+.tdleft,
+.tdright {
+  width: 50%;
+  padding: 8px;
+  text-align: center; /* Căn đều nội dung trong các ô */
+  padding: 0px 120px 0px 120px;
+}
+#video {
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+}
+.list {
+  background-color: #c0c0c0;
+  text-align: center;
+  font-size: 30px;
+  width: 20%;
+  padding: 10px;
+  margin-left: 40%;
+
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+#p1 {
+  margin-top: 100;
+  background-color: #c0c0c0;
+  height: 20%;
+  text-align: center;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+.dropbtn {
+  font-family: 標楷體;
+  font-size: 30px;
+  background-color: #c0c0c0;
+  text-align: left;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-family: 標楷體;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  font-size: 25px;
+  text-align: left;
+  box-shadow: 0px 8px 12px 0px rgb(0, 0, 0);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 5px 12px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  opacity: 0.5;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #c0c0c0;
+}
+
+#logo {
+  position: fixed;
+}
+#p1 a:hover {
+  color: red;
+}
+.dropbtn:hover {
+  color: red;
+}
+.mt {
+  top: 20%;
+}
+.anhnen {
+  position: relative;
+  width: 100%;
+}
+.anhde {
+  position: absolute;
+  top: 19px; /* Điều chỉnh vị trí top của ảnh chèn */
+  left: 42.5%; /* Điều chỉnh vị trí left của ảnh chèn */
+  width: 15%; /* Độ rộng của ảnh chèn */
+  height: 50px; /* Chiều cao của ảnh chèn */
+  z-index: 1; /* Đảm bảo ảnh chèn hiển thị trên ảnh gốc */
+}
+.no_under {
+  text-decoration: none;
+  color: black;
+  font-family: 標楷體;
+  font-size: 30px;
+}
